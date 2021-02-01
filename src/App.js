@@ -13,7 +13,7 @@ function App() {
 	const navLinks = [
 		{
 			text: 'Home',
-			path: '/home',
+			path: '/',
 			icon: 'ion-ios-home'
 		},
 		{
@@ -49,7 +49,7 @@ function App() {
 			/>
 			<Router>
 				<Contact path="/contact" />
-				<Home path="/home" />
+				<Home path="/" />
 				<Portfolio path="/portfolio" />
 				<Blog path="/blog" />
 				<About path="/about" />

@@ -7,7 +7,7 @@ class About extends Component {
             <h1 className="subtopic">About Me</h1>
             <h4>Hey there,</h4>
             <h1>I'm Hassan Kazeem Destiny</h1>
-            <h3>Full Stack Web <u>Developer</u> | UI/UX <u>Designer</u></h3>
+            <h3>Full Stack Web <u>Developer</u> | Mobile <u>Apps</u></h3>
             <br></br>
             <p>I started my journey in the world of computers from a young age,
             laptop repairs in the days of grandpa windows 98, Pursuing my Software Engineering career with 

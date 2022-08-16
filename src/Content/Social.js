@@ -5,7 +5,7 @@ class Social extends Component {
 {
 super(props);
 this.state={
-'myskills':['C#/.Net','JavaScipt/ReactJs','SQL/NoSQL DBs','Docker/Kubernettes','MicroService/MonoLiths','CI/CD']
+'myskills':['C#/.Net','ReactJs','MySQL','MongoDB','Redis']
 };
 }
 render() {

@@ -3,7 +3,7 @@ import React from 'react'
 function Portfolio  ()
 {
     const state = {
-        'myskills': ['C#/.Net', 'JavaScipt/ReactJs', 'SQL/NoSQL DBs', 'Docker/Kubernettes', 'MicroService/MonoLiths', 'CI/CD']
+        'myskills': ['C#/.Net', 'Python/Django/Flasj', 'AWS/Azure', 'MicroService/MonoLiths']
     };
         return (
             <div>

@@ -9,14 +9,20 @@ class About extends Component {
                 <img src={pic} alt="ProfilePic" className="profilepic"></img>           
             <h4>Hey there,</h4>
             <h1>I'm Hassan Kazeem Destiny</h1>
-            <h3>Full Stack Web <u>Developer</u> | Mobile <u>Apps</u></h3>
+            <h3>Full Stack Web <u>Developer</u> | A-I <u>Enthausists</u></h3>
             <br></br>
-            <p>I started my journey in the world of computers from a young age,
-            laptop repairs in the days of grandpa windows 98, Pursuing my Software Engineering career with 
-             interest in QBasic back in School in the early millenium. Software mobile/Web development is my 
-            center of interest, I always love the idea of cross-platform development, 1-n one code base deploy into almost
-            any platform, which web technology like Javascript and .Net core enables me to do. I also like
-            creating Interactive UI components for fun.
+            <p>As a seasoned software engineer with a lifelong passion for technology, I've been driven by an insatiable curiosity and enthusiasm for innovation. 
+              My journey in the world of computers began at a young age, with humble beginnings in laptop repairs during the Windows 98 era. 
+              This early exposure sparked a deep interest in software development, which I further cultivated through my academic pursuits in Software Engineering.
+            </p>
+            <p>
+              Throughout my career, I've maintained a strong focus on software development, with a particular emphasis on mobile and web technologies. 
+              I'm drawn to the versatility and reach of cross-platform development, which enables me to deploy applications seamlessly across multiple platforms from a single codebase. 
+              Technologies like JavaScript and .NET Core have been instrumental in helping me achieve this goal.
+            </p>
+            <p>
+              One of my most notable projects was the development of an Intelligent Stock Management Service, which leveraged artificial intelligence to optimize inventory management and forecasting. 
+              This project not only showcased the potential of AI in transforming business operations but also deepened my understanding of the complex interplay between technology and business.
             </p>
             </div>
         )

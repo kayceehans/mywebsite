@@ -9,7 +9,7 @@ class Home extends Component {
             <div className="condiv home">
                 <Confetti />
             <img src={pic} alt="ProfilePic" className="profilepic"></img>
-            <ReactTypingEffect className="typingeffect" text={['My name is Hassan Kazeem Destiny','Microsoft Certified Software Engineer','Graduate of Computer Science, Bells University of Technology, Ota, Ogun State, Nigeria', 'I am currently working on Intelligent Stock Mangement Service using Python-Django']} speed={10} eraseDelay={500}/>
+            <ReactTypingEffect className="typingeffect" text={['My name is Kazeem Hassan Destiny','Microsoft Certified Software Engineer','Graduate of Computer Science, Bells University of Technology, Ota, Ogun State, Nigeria', 'I am currently working on Intelligent Stock Mangement Service using Python-Django']} speed={10} eraseDelay={500}/>
             <Social/>
             </div>           
         )

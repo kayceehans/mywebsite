@@ -1,3 +1,4 @@
+/* Your existing CSS */
 .App {
   text-align: center;
   margin: 0% auto;
@@ -33,55 +34,105 @@
   }
 }
 
-.social
-{
-position: absolute;
-margin-top: 20px;
-display: flex;
-bottom: 30px;
+.social {
+  position: absolute;
+  margin-top: 20px;
+  display: flex;
+  bottom: 30px;
 }
 
+.condiv {
+  padding: 100px;
+  background-color: #f4f5f9;
+  flex: var(--condiv-flex);
+}
+
+/* The duplicated .condiv can be removed, assuming it's a typo */
+/*
 .condiv
 {
   padding: 100px ;
   background-color: #f4f5f9;
   flex:var(--condiv-flex);
 }
+*/
 
-.condiv
-{
-  padding: 100px ;
-  background-color: #f4f5f9;
-  flex:var(--condiv-flex);
-}
-
-.home
-{
+.home {
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  
 }
-.profilepic
-{
+
+.profilepic {
   border-radius: 50%;
   width: 200px;
   margin: 30px;
 }
-.typingeffect
-{
+
+.typingeffect {
   /* font-size: var(--typing-font); */
   font-size: 3rem;
   margin-bottom: 30px;
   color: blue;
-  
 }
 
 ul#menu li {
-  display:inline;
+  display: inline;
   color: rgb(4, 4, 4);
   font-size: 1.5rem;
   font: bold;
 }
 
+/* --- Mobile Responsiveness Section --- */
+
+@media screen and (max-width: 768px) {
+  .App-header {
+    font-size: calc(8px + 1.5vmin); /* Smaller font for smaller screens */
+    min-height: 50vh; /* Adjust height for smaller screens if needed */
+  }
+
+  .condiv {
+    padding: 20px; /* Reduce padding on smaller screens */
+  }
+
+  .profilepic {
+    width: 150px; /* Smaller profile picture */
+  }
+
+  .typingeffect {
+    font-size: 2rem; /* Smaller font for typing effect */
+  }
+
+  ul#menu li {
+    display: block; /* Make menu items stack vertically */
+    font-size: 1.2rem; /* Smaller font for menu */
+    margin-bottom: 10px; /* Add some spacing between stacked items */
+  }
+
+  .social {
+    position: relative; /* Change positioning if needed for mobile layout */
+    bottom: unset;
+    margin-top: 20px;
+    flex-direction: column; /* Stack social icons vertically */
+  }
+}
+
+@media screen and (max-width: 480px) {
+  /* Further adjustments for very small screens */
+  .App-header {
+    font-size: calc(6px + 1vmin);
+  }
+
+  .condiv {
+    padding: 10px;
+  }
+
+  .profilepic {
+    width: 100px;
+  }
+
+  .typingeffect {
+    font-size: 1.5rem;
+  }
+}
